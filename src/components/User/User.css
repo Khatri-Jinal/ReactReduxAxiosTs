@@ -1,0 +1,16 @@
+.user {
+  margin: 12px 0;
+  display: flex;
+}
+.user-info {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+.status {
+  flex: 0 0 22%;
+  max-width: 22%;
+}
+.access {
+  flex: 0 0 22%;
+  max-width: 22%;
+}

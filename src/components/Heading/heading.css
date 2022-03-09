@@ -1,0 +1,19 @@
+.heading {
+  display: flex;
+  margin-bottom: 24px;
+}
+.heading p {
+  font-size: 22px;
+}
+.heading p:first-child {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+.heading p:nth-child(2) {
+  flex: 0 0 22%;
+  max-width: 22%;
+}
+.heading p:nth-child(3) {
+  flex: 0 0 22%;
+  max-width: 22%;
+}
