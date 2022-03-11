@@ -1,14 +1,14 @@
-import { UserListType } from "../../App";
+import { UserType } from "../../actions/UserActionTypes";
 import "./UserProfile.css";
 
 interface UserProfileProptypes {
-  selectedUser: UserListType | null;
+  selectedUser: UserType | null;
 }
 
 function UserProfile({ selectedUser }: UserProfileProptypes) {
   return (
     <div className="user-profile">
-      <div className="user-top">
+      {/* <div className="user-top">
         <div className="user-img">
           <img
             className="profile-photo"
@@ -36,7 +36,7 @@ function UserProfile({ selectedUser }: UserProfileProptypes) {
             <p className="title">Monthly clicks</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

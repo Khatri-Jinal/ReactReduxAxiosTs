@@ -1,0 +1,17 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.page-item {
+  padding: 6px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 0 4px;
+}
+.disabled {
+  color: rgba(128, 128, 128, 0.616);
+}
+.active {
+  background-color: #feb23f;
+  color: white;
+}
